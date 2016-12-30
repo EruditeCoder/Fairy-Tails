@@ -3,18 +3,3 @@
   margin: 0;
   padding: 0;
 }
-
-body {
-  background-image: url(../img/gray_paw.jpg);
-  background-size: contain;
-}
-
-a:hover, a:link, a:active, a {
-  color: inherit;
-  text-decoration: none;
-}
-/****************/
-
-.nav {
-
-}
