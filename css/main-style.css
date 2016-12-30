@@ -3,3 +3,39 @@
   margin: 0;
   padding: 0;
 }
+
+.landing-image-container {
+  background-image: url("../img/.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+  height: 100vh;
+
+/* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+h1, h3{
+  position: relative;
+  left: 50px;
+}
+
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+}
+
+.Aligner-item--top {
+  align-self: flex-start;
+}
+
+.Aligner-item--bottom {
+  align-self: flex-end;
+}
