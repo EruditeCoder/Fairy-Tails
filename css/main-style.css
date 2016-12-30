@@ -1,42 +1,21 @@
-/*DEFAULT RULES*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.landing-image-container {
-  background-image: url("../img/.jpg");
+#outer {
+    background-image: url("C:/Users/adria/Documents/Business/Work_Linux/Porfolio/My Sites/Ripped Geeks/bodybuilder-vh.jpg");
   background-size: cover;
   background-position: center;
   margin-bottom: 50px;
   height: 100vh;
-
-/* flex-box */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h1, h3{
-  position: relative;
-  left: 50px;
+h1 {
+    font-family: "Franklin Gothic Medium", sans-serif;
+    font-size: xx-large;
+    color: #3399FF;
 }
-
-.Aligner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Aligner-item {
-  max-width: 50%;
-}
-
-.Aligner-item--top {
-  align-self: flex-start;
-}
-
-.Aligner-item--bottom {
-  align-self: flex-end;
+#blueDiv {
+    width: 100px;
+    height: 100px;
+    background-color: #3399FF;
 }
