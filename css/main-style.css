@@ -2,10 +2,13 @@
 
 }
 /*-------------------------------------------------------- landing vh ---------------------------------------------------------------*/
+/* landing - navbar */
 .dog-logo-brand{
   height: 40px;
   width: 55px;
 }
+
+/* landing - image */
 #landing-image-container {
     /* background */
     background-image: url("../img/dog_chill.png");
