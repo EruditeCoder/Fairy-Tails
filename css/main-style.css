@@ -140,9 +140,9 @@ p{
 }
 
 .round-image {
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
-    width: 100%;
-    height: 100%;
 }
 
 .round-image-div {
