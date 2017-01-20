@@ -1,0 +1,39 @@
+.main-div-home-boxes {
+    border: 5px solid yellow;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+}
+
+.text-div-1, .text-div-2, .img-home-div-1, .img-home-div-2 {
+    height: 400px;
+    width: 400px;
+}
+
+.text-div-1 {
+    outline: 2px solid blue;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.text-div-2 {
+    outline: 2px solid green;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.img-home-div-1 {
+    outline: 4px solid red;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.img-home-div-2 {
+    outline: 4px solid red;
+    position: relative;
+    top: 0;
+    right: 0;
+}
