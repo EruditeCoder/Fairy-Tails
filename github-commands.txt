@@ -1,0 +1,47 @@
+Git Hub Command Snippets:
+
+
+
+
+
+//BASIC COMMANDS
+
+git status //Compares local vs cloud files(GitHub)
+
+
+git commit //Gets a files ready for git push
+	//Add Ons
+	-a  //commit all
+
+
+git add //Adds files
+	//Add Ons
+	-A //Add all files
+
+
+git push //Pushes files to GitHub cloud
+	//Add Ons
+	. //Pushes all files
+
+
+git pull //Pulls files from GitHub cloud
+
+
+
+
+
+
+
+//Trouble shooting
+If commit not working with new files then do git add then do git commit. Might have to do git add after commit.
+
+If not pushing make sure to add and commit
+
+//DO NOT ATTEMPT CARELESSLY!!
+
+git push --force
+git pull --force
+git commit --force
+git add --force
+
+--force //FORCES SHIT BOY BE CAREFUL
