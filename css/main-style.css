@@ -1,5 +1,7 @@
-* {margin:0;
-padding:0;}
+* {
+    margin:0;
+    padding:0;
+}
 
 
 /*-------------------------------------------------------- landing vh ---------------------------------------------------------------*/
@@ -234,59 +236,95 @@ p {
 }
 .leftquad  {
     margin-top: 10%;
-    margin-left: 17%;
-
-    background: blue;
+    margin-left: 25%;
+    background: white;
 }
-    .a{
-        position: relative;
-        top: 5%;
-        left: -15%;
-        font-family: cursive;
-        font-size: 20px;
-    }
 
-    .event-heading{
-        position: relative;
-        margin-top: 7%;
-        left: 15%;
-        font-family: cursive;
-        font-size: 40px;
-    }
+.a {
+    position: relative;
+    top: 5%;
+    left: -15%;
+    font-family: cursive;
+    font-size: 20px;
+}
 
-    .event-discription{
-        position: relative;
-        padding-right: 0;
-        margin-top: 0%;
-        left: -15%;
-        font-family: cursive;
-        font-size: 20px ;
-    }
+.event-heading{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+    position: relative;
+    margin-top: 7%;
+    left: 15%;
+}
 
-.d{
+.event-discription {
+    font-family: 'Amiri', serif;
+    position: relative;
+    padding-right: 0;
+    margin-top: 0%;
+    left: -15%;
+    font-size: 20px ;
+}
+
+.upcoming-events {
+    font-family: 'Amiri', serif;
+
+}
+
+
+.d {
     position: relative;
     top: 30%;
     left: 75%;
 
 }
+
 .bottom-leftquad  {
     margin-top: 10%;
-
     background: red;
 }
+
 .top-rightquad  {
     clear: left;
-
     margin-bottom: 10%;
-    margin-left: 17%;
-
-    background: green;
+    margin-left: 25%;
+    background: white;
 }
+
 .bottom-rightquad {
     margin-bottom: 10%;
-
-    background: black;
+    background: white;
 }
+
+.red-circle {
+    height: 15%;
+    width: 15%;
+}
+
+.red-circle-top {
+    position: relative;
+    left:75%;
+    top:17%;
+}
+
+.red-circle-bottom {
+    position: relative;
+    left:75%;
+    top:17%;
+}
+
+
+.map-home-img {
+    height:100%;
+    width: 100%;
+}
+
+.trees-home-img {
+    height:100%;
+    width: 100%;
+
+}
+
+
 
 /*--------------------------------------------- Pet of The Month --------------------------------------------------------------*/
 .pet-of-month-main-div{
