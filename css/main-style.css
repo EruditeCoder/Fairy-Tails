@@ -331,9 +331,24 @@ p {
     float: left;
 }
 /*--------------------------------------------- Founder and CEO ---------------------------------------------------------------*/
-.founder-and-ceo{
+.founder-and-ceo {
     float: left;
+    margin-top: 10%;
 }
+
+.founder-and-ceo-header {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+}
+
+.founder-and-ceo-body {
+  margin-top: 3%;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 45px;
+}
+
 /*-------------------------------------------------- Footer  ------------------------------------------------------------------*/
 .main-page-footer{
     float:left;
