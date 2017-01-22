@@ -230,13 +230,13 @@ p {
 .box {
     float: left;
 
-    width: 450px;
-    height: 450px;
+    width: 30%;
+    height: 30%;
 
 }
 .leftquad  {
     margin-top: 10%;
-    margin-left: 25%;
+    margin-left: 20%;
     background: white;
 }
 
@@ -286,12 +286,12 @@ p {
 .top-rightquad  {
     clear: left;
     margin-bottom: 10%;
-    margin-left: 25%;
+    margin-left: 20%;
     background: white;
 }
 
 .bottom-rightquad {
-    margin-bottom: 10%;
+    margin-top: 2%;
     background: white;
 }
 
@@ -303,7 +303,7 @@ p {
 .red-circle-top {
     position: relative;
     left:75%;
-    top:17%;
+    top:80%;
 }
 
 .red-circle-bottom {
