@@ -224,7 +224,6 @@ p {
 .leftquad  {
     margin-top: 10%;
     margin-left: 20%;
-
     background: white;
 }
 
@@ -237,6 +236,8 @@ p {
 }
 
 .leftquad  {
+    width:28em;
+    height:31em;
     margin-top: 10%;
     margin-left: 20%;
     -webkit-box-shadow: 0px 0px 0px 0px #000000;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -247,9 +248,7 @@ p {
 .event-heading{
     position: relative;
     left: 15%;
-
     margin-top: 7%;
-
     font-family: 'Archivo Black', sans-serif;
     font-size: 40px;
 }
@@ -258,10 +257,12 @@ p {
     position: relative;
     padding-right: 0;
     margin-top: 0%;
-    margin-bottom: 9%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
     left: -15%;
     font-family: 'Amiri', serif;
-    font-size: 20px ;
+    font-size: 20px;
+    width:20em;
 }
 
 .event-discription-bottom {
@@ -269,9 +270,10 @@ p {
     position: relative;
     padding-right: 0;
     margin-top: 0%;
-    margin-bottom: 17%;
+    margin-bottom: 10%;
     left: -15%;
     font-size: 20px ;
+
 }
 
 .upcoming-events {
@@ -288,6 +290,8 @@ p {
 }
 
 .bottom-leftquad {
+    width:28em;
+    height:31em;
     margin-top: 10%;
     -webkit-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
@@ -295,8 +299,11 @@ p {
 }
 
 .top-rightquad  {
+    width:28em;
+    height:31em;
     clear: left;
-    margin-bottom: 10%;
+    margin-top: -2%;
+    margin-bottom: 0%;
     margin-left: 20%;
     background: white;
     -webkit-box-shadow: 0 5px 10px -5px #999, -5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -305,7 +312,9 @@ p {
 }
 
 .bottom-rightquad {
-    margin-top: 0%;
+    width:28em;
+    height:31em;
+    margin-top: -2%;
     background: white;
     -webkit-box-shadow: 0 5px 10px -5px #999, 5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0 5px 10px -5px #999, 5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
@@ -319,30 +328,30 @@ p {
 
 .red-circle-top {
     position: relative;
-    top:80%;
-    left:75%;
-    padding-bottom: 6.2%;
+    bottom: 6%;
+    left: 75%;
+    margin-bottom: 8%;
+    padding-bottom: 0%;
 }
 
 .red-circle-bottom {
     position: relative;
-    top:17%;
+    bottom:-27%;
     left:75%;
-    padding-bottom: 7.8%;
+    margin-bottom: 27%;
+    padding-bottom: 0%;
 }
 
 
 .map-home-img {
-    height: 34.3em;
-    width: 39.5em;
+    width:100%;
+    height:100%;
 }
 
 .trees-home-img {
-    height: 34.3em;
-    width: 39.5em;
+    width:100%;
+    height:100%;
 }
-
-
 
 
 /*--------------------------------------------- Pet of The Month --------------------------------------------------------------*/
