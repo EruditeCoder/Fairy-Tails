@@ -30,7 +30,7 @@
     /* Firefox 3.5 - 3.6 */
     box-shadow: 0px 0px 10px 0px #000000;
     /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    
+
     font-size: 50px;
     align-items: center;
     justify-content: center;
@@ -153,34 +153,26 @@ p {
 
 .circle-content-1 {
     float: left;
-
     width: 33%;
-
     text-align: center;
 }
 
 .circle-content-2 {
     float: left;
-
     width: 33%;
-
     text-align: center;
 }
 
 .circle-content-3 {
     float: left;
-
     width: 33%;
-
     text-align: center;
 }
 
 .all-circles {
     display: inline-block;
-
     width: 60%;
     height: 225px;
-
     border: 0px solid #666;
     border-radius: 55%;
     -webkit-box-shadow: 0px 0px 20px 1px #888;
@@ -202,7 +194,6 @@ p {
 
 .round-image-text {
     color: #666;
-
     font-family: 'Abel', sans-serif;
     font-size: 18px;
 }
@@ -219,7 +210,6 @@ p {
     /* Firefox 3.5 - 3.6 */
     box-shadow: 0px 0px 20px 1px #888;
     /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-
 }
 
 /*--------------------------------------------- 4 events boxes --------------------------------------------------------------*/
@@ -229,10 +219,13 @@ p {
     height: 30%;
 
 }
+
 .leftquad  {
     margin-top: 10%;
     margin-left: 20%;
-    background: white;
+    -webkit-box-shadow: 0px 0px 0px 0px #000000;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0px 0px 0px 0px #000000;/* Firefox 3.5 - 3.6 */
+    box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .a {
@@ -256,12 +249,24 @@ p {
     position: relative;
     padding-right: 0;
     margin-top: 0%;
+    margin-bottom: 23%;
+    left: -15%;
+    font-size: 20px ;
+}
+
+.event-discription-bottom {
+    font-family: 'Amiri', serif;
+    position: relative;
+    padding-right: 0;
+    margin-top: 0%;
+    margin-bottom: 31%;
     left: -15%;
     font-size: 20px ;
 }
 
 .upcoming-events {
     font-family: 'Amiri', serif;
+    padding-top: 5%;
 }
 
 
@@ -272,8 +277,11 @@ p {
 
 }
 
-.bottom-leftquad  {
+.bottom-leftquad {
     margin-top: 10%;
+    -webkit-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
+    box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .top-rightquad  {
@@ -281,11 +289,17 @@ p {
     margin-bottom: 10%;
     margin-left: 20%;
     background: white;
+    -webkit-box-shadow: 0 5px 10px -5px #999, -5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0 5px 10px -5px #999, -5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
+    box-shadow: 0 5px 10px -5px #999, -5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .bottom-rightquad {
-    margin-top: 2%;
+    margin-top: 0%;
     background: white;
+    -webkit-box-shadow: 0 5px 10px -5px #999, 5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0 5px 10px -5px #999, 5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
+    box-shadow: 0 5px 10px -5px #999, 5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .red-circle {
@@ -295,14 +309,16 @@ p {
 
 .red-circle-top {
     position: relative;
-    left:75%;
-    top:80%;
+    left: 75%;
+    top: 65%;
+    padding-bottom: 6%;
 }
 
 .red-circle-bottom {
     position: relative;
-    left:75%;
-    top:17%;
+    left: 75%;
+    top: 27%;
+    padding-bottom: 6%;
 }
 
 
