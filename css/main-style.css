@@ -199,12 +199,16 @@ p {
 }
 
 
-/*--------------------------------------------- Charles Darwin Quote -------------------------------------------------------*/
+/*--------------------------------------------- Charles in Quote -------------------------------------------------------*/
+.darwin-cocky {
+    height: 102vh;
+}
+
 .darwin-image {
     width: 100%;
     height: 100%;
     margin-top: 7%;
-
+    margin-bottom: 15%;
     -webkit-box-shadow: 0px 0px 20px 1px #888;
     /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0px 0px 20px 1px #888;
@@ -222,9 +226,14 @@ p {
 }
 
 .leftquad  {
-    margin-top: 10%;
-    margin-left: 20%;
+    margin-top: 15%;
+    margin-left: 58vh;
     background: white;
+    width: 28em;
+    height: 31em;
+    -webkit-box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
+    box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .a {
@@ -233,16 +242,6 @@ p {
     left: -15%;
     font-family: cursive;
     font-size: 20px;
-}
-
-.leftquad  {
-    width: 28em;
-    height: 31em;
-    margin-top: 10%;
-    margin-left: 30%;
-    -webkit-box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
-    box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
 .event-heading{
@@ -270,7 +269,7 @@ p {
     position: relative;
     padding-right: 0;
     margin-top: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
     left: -15%;
     font-size: 20px ;
 
@@ -290,9 +289,9 @@ p {
 }
 
 .bottom-leftquad {
-    width:28em;
-    height:31em;
-    margin-top: 10%;
+    width: 28em;
+    height: 31em;
+    margin-top: 15%;
     -webkit-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
     box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
@@ -304,7 +303,7 @@ p {
     clear: left;
     margin-top: -3%;
     margin-bottom: 0%;
-    margin-left: 30%;
+    margin-left: 58vh;
     background: white;
 }
 
@@ -325,7 +324,7 @@ p {
 
 .red-circle-top {
     position: relative;
-    bottom: 11%;
+    bottom: 16%;
     left: 75%;
     margin-bottom: 8%;
     padding-bottom: 0%;
@@ -333,10 +332,10 @@ p {
 
 .red-circle-bottom {
     position: relative;
-    bottom: 0%;
+    bottom: -5%;
     left: 75%;
     margin-bottom: 0%;
-    padding-bottom: 0%;
+    padding-bottom: -4%;
 }
 
 .map-home-img {
