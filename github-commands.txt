@@ -40,7 +40,12 @@ If not pushing make sure to add and commit
 //DO NOT ATTEMPT CARELESSLY!!
 
 git push --force
-git pull --force
+
+//FORCE PULL
+git fetch --all
+git reset --hard origin/master
+
+
 git commit --force
 git add --force
 
