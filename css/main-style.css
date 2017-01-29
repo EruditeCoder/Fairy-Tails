@@ -242,7 +242,7 @@ p {
     width: 27em;
     height: 31em;
     margin-top: 10%;
-    margin-left: 42vh;
+    margin-left: 30%;
 
     background: white;
     -webkit-box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -327,14 +327,14 @@ p {
     height: 21em;
     margin-top: -3%;
     margin-bottom: 0%;
-    margin-left: 42vh;
+    margin-left: 30%;
 
     background: white;
 }
 
 .bottom-rightquad {
     width: 28em;
-    height: 27em;
+    height: 26.65em;
     margin-top: -3%;
 
     background: white;
