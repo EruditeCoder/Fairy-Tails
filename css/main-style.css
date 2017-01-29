@@ -13,16 +13,17 @@
 #landing-image-container {
     display: flex;
     flex-direction: column;
+
     height: 100vh;
     margin-bottom: 50px;
     padding: 0;
+
     text-align: center;
 
     background-image: url("../img/dog_chill.png");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
     -webkit-box-shadow: 0px 0px 10px 0px #000000;
     /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0px 0px 10px 0px #000000;
@@ -31,6 +32,7 @@
     /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
     font-size: 50px;
+
     align-items: center;
     justify-content: center;
     align-items: center;
@@ -59,9 +61,11 @@
     position: absolute;
     bottom: 7px;
     left: 50%;
+
     width: 20px;
     height: 20px;
     margin-left: -20px;
+
     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
     background-size: contain;
@@ -151,26 +155,34 @@ p {
 
 .circle-content-1 {
     float: left;
+
     width: 33%;
+
     text-align: center;
 }
 
 .circle-content-2 {
     float: left;
+
     width: 33%;
+
     text-align: center;
 }
 
 .circle-content-3 {
     float: left;
+
     width: 33%;
+
     text-align: center;
 }
 
 .all-circles {
     display: inline-block;
+
     width: 60%;
     height: 225px;
+
     border: 0px solid #666;
     border-radius: 55%;
     -webkit-box-shadow: 0px 0px 20px 1px #888;
@@ -192,21 +204,23 @@ p {
 
 .round-image-text {
     color: #666;
+
     font-family: 'Abel', sans-serif;
     font-size: 18px;
 }
 
 
 /*--------------------------------------------- Charles in Quote -------------------------------------------------------*/
-.darwin-cocky {
-    height: 102vh;
+.darwin-quote {
+    height: 100%;
 }
 
 .darwin-image {
     width: 100%;
     height: 100%;
     margin-top: 7%;
-    margin-bottom: 15%;
+    margin-bottom: 0%;
+
     -webkit-box-shadow: 0px 0px 20px 1px #888;
     /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0px 0px 20px 1px #888;
@@ -218,17 +232,19 @@ p {
 /*--------------------------------------------- 4 events boxes --------------------------------------------------------------*/
 .box {
     float: left;
-    width: 29%;
-    height: 29.%;
+
+    width: 25%;
+    height: 25%;
 
 }
 
-.leftquad  {
-    margin-top: 15%;
-    margin-left: 43vh;
-    background: white;
-    width: 28em;
+.top-leftquad  {
+    width: 27em;
     height: 31em;
+    margin-top: 10%;
+    margin-left: 42vh;
+
+    background: white;
     -webkit-box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
     box-shadow: 0 -5px 10px -5px #999, -5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
@@ -238,6 +254,7 @@ p {
     position: relative;
     top: 5%;
     left: -15%;
+
     font-family: cursive;
     font-size: 20px;
 }
@@ -245,37 +262,44 @@ p {
 .event-heading{
     position: relative;
     left: 15%;
+
     margin-top: 7%;
+
     font-family: 'Archivo Black', sans-serif;
     font-size: 40px;
 }
 
 .event-discription {
     position: relative;
-    padding-right: 0;
+    left: -15%;
+
+    width:20em;
     margin-top: 0%;
     margin-bottom: 0%;
+    padding-right: 0;
     padding-bottom: 0%;
-    left: -15%;
+
     font-family: 'Amiri', serif;
     font-size: 20px;
-    width:20em;
 }
 
 .event-discription-bottom {
-    font-family: 'Amiri', serif;
     position: relative;
-    padding-right: 0;
+    left: -15%;
+
     margin-top: 0%;
     margin-bottom: 0%;
-    left: -15%;
+    padding-right: 0;
+
+    font-family: 'Amiri', serif;
     font-size: 20px ;
 
 }
 
 .upcoming-events {
-    font-family: 'Amiri', serif;
     padding-top: 5%;
+
+    font-family: 'Amiri', serif;
 }
 
 
@@ -286,29 +310,33 @@ p {
 
 }
 
-.bottom-leftquad {
+.top-rightquad {
     width: 28em;
     height: 31em;
-    margin-top: 15%;
+    margin-top: 10%;
+
     -webkit-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
     box-shadow: 0 -5px 10px -5px #999, 5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-.top-rightquad  {
-    width: 28em;
-    height: 31em;
+.bottom-leftquad {
     clear: left;
+
+    width: 27em;
+    height: 21em;
     margin-top: -3%;
     margin-bottom: 0%;
-    margin-left: 43vh;
+    margin-left: 42vh;
+
     background: white;
 }
 
 .bottom-rightquad {
     width: 28em;
-    height: 28em;
+    height: 27em;
     margin-top: -3%;
+
     background: white;
     -webkit-box-shadow: 0 5px 10px -5px #999, 5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0 5px 10px -5px #999, 5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
@@ -324,19 +352,21 @@ p {
     position: relative;
     bottom: 16%;
     left: 75%;
+
     margin-bottom: 8%;
     padding-bottom: 0%;
 }
 
 .red-circle-bottom {
-    width: 4.2em;
-    height: 4.2em;
     position: relative;
     bottom: -5%;
     left:75%;
+
+    width: 4.2em;
+    width: 100%;
+    height: 4.2em;
     margin-bottom: 0%;
     padding-bottom: -4%;
-    width: 100%;
 }
 
 .map-home-img {
@@ -347,107 +377,12 @@ p {
 .trees-home-img {
     width: 100%;
     height: 100%;
+
     -webkit-box-shadow: 0 5px 10px -5px #999, -5px 0 10px -5px #999;/* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 0 5px 10px -5px #999, -5px 0 10px -5px #999;/* Firefox 3.5 - 3.6 */
     box-shadow: 0 5px 10px -5px #999, -5px 0 10px -5px #999;/* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
-
-/*--------------------------------------------- Pet of The Month --------------------------------------------------------------*/
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes xfade{
-  0%{
-    opacity: 1;
-  }
-  10.5% {
-    opacity: 1;
-  }
-  12.5%{
-    opacity: 0;
-  }
-  98% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 /*--------------------------------------------- Founder and CEO ---------------------------------------------------------------*/
 .founder-and-ceo {
     float: left;
@@ -469,6 +404,9 @@ p {
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 2.5em;
 }
+/*--------------------------------------------- Pet of The Month --------------------------------------------------------------*/
+
+
 
 /*-------------------------------------------------- Footer  ------------------------------------------------------------------*/
 .main-page-footer{
